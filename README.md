@@ -40,7 +40,7 @@ java Compiler "<python code>"
 ```
 **Output**
 Here is the overview of the out put of `(2+3) - (2-4) - 6`
-![Output](img\output.png)
+![Output](img/output.png)
 
 **Contributors:**
 - Dasharn
