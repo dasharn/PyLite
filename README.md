@@ -1,8 +1,8 @@
-**Project Title: Java-based Python Compiler**
+**Project Title: Java-based Python Interpreter**
 
 
 **Description:**
-This project implements a simple compiler build in Java for a subset of the Python programming language in . The compiler translates source code written in the Python subset into bytecode instructions that can be executed by a virtual machine or interpreter.
+This project implements a simple Intepreter and compiler build in Java for a subset of the Python programming language in. The compiler translates source code written in the Python subset into bytecode instructions that can be executed by the interpreter.
 
 
 **Features:**
@@ -10,10 +10,10 @@ Can Only Currently Support complex addition, substraction, exponentiation and si
 
 
 **Components:**
-1. **Parser:** Parses the source code into an abstract syntax tree (AST).
-2. **Compiler:** Converts the AST into bytecode instructions.
-3. **Lexer:** Tokenizes the source code into tokens for parsing.
-4. **Interpreter:** Executes the bytecode instructions.
+1. **Lexer:** Tokenizes the source code into tokens for parsing.
+2. **Parser:** Parses the source code into an abstract syntax tree (AST).
+3. **Compiler:** Converts the AST into bytecode instructions.
+5. **Interpreter:** Executes the bytecode instructions.
 
 **Usage:**
 1. **Compilation:**
@@ -49,7 +49,7 @@ The following are things I need to complete over time.
 
 **TODO:**
 - [ ] Fix errors in the code introduced from trying to add support for if.
-- [ ] Fix errors in the variable assignment
+- [ ] Fix errors in the code variable assignment
 - [ ] Add Support for comparison operators ==, !=, <, <=, >, >=.
 - [ ] Add support for more complex Boolean expressions
 - [ ] Add Support for chained comparisons.
