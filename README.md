@@ -1,4 +1,4 @@
-**Project Title: Java-based Python Interpreter**
+**PyLite: Java-based Python Interpreter**
 
 
 **Description:**
